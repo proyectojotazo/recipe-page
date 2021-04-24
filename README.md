@@ -8,15 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
-      Demo
-    </a>
-    <span> | </span>
     <a href="https://{your-url-to-the-solution}">
       Solution
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-challenge}">
+    <a href="https://devchallenges.io/challenges/OEKdUZ6xs0h99C38XVht#">
       Challenge
     </a>
   </h3>
@@ -40,6 +36,7 @@
 ![screenshot](img/screen1.png)
 ![screenshot](img/screen2.png)
 ![screenshot](img/screen3.png)
+![screenshot](img/responsive.png)
 
 ### Built With
 
