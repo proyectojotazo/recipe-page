@@ -1,0 +1,255 @@
+/* FONTS */
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: Playfair;
+    src: url(../fonts/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+/* GENERAL */
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#web-content{
+    
+    margin: 0px auto;
+    width: 70%; height: fit-content; 
+    padding: 5px;
+}
+
+/* CABECERA */
+
+#header{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+#header h1{
+    font-family: Playfair;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 10px 0px;
+}
+
+#msg-wrapper{
+    display: flex;
+}
+
+#msg-wrapper img{
+    align-self: flex-start;
+    margin: 5px;
+}
+
+#msg-wrapper p{
+    color: #4f4f4f;
+    font-family: Montserrat;
+    font-style: italic;
+    font-size: 14px;
+    margin-bottom: 20px;
+    width: 60%;
+}
+
+/* SECCION IMG */
+
+#wrapper-img {
+    width: 100%;
+    height: 450px;
+    padding: 10px;
+}
+
+#wrapper-img img{
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+
+/* SECCION PRINCIPAL */
+
+#main-content{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    margin-top: 30px;
+    width: 100%;
+}
+
+/* ----- INGREDIENTES ----- */
+
+.bold-text{
+    font-weight: bold;
+}
+
+.italic-text{
+    font-style: italic;
+}
+
+#wrapper-ingredientes{
+    width: 65%;
+}
+
+#wrapper-ingredientes > h3{
+    color: #333;
+    font-family: Playfair;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.ingredientes {
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.ingredientes h5{
+    color: #333;
+    font-family: Playfair;
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+
+.ingrediente{
+    display: flex;
+    width: 80%;
+    margin: 10px 0px;
+}
+
+input[type="checkbox"]{
+    min-width: 21px;
+    min-height: 21px;
+}
+
+.ingrediente p{
+    margin-left: 25px;
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/* ----- INFO ----- */
+
+#section-info{
+    width: 33%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#wrapper-info{
+    border-radius: 20px;
+    justify-self: center;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    width: 65%;
+    height: 50%;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+
+}
+
+.info-content{
+    display: flex;
+    justify-content: center;
+}
+
+.text-info{
+    margin-left: 20px;
+}
+
+.text-info h6{
+    font-family: Montserrat;
+    font-size: 10px;
+    color: rgba(189, 189, 189, 1)
+}
+
+#wrapper-info .info-content:nth-child(3) .text-info p,
+#wrapper-info .info-content:nth-child(4) .text-info p{
+    width: 79px;
+}
+
+.text-info p{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(51, 51, 51, 1);
+}
+
+.orange-text{
+    color: rgba(242, 153, 74, 1);
+}
+
+/* ----- INSTRUCCIONES ----- */
+
+#wrapper-instrucciones{
+    
+    width: 65%;
+}
+
+#wrapper-instrucciones > h3{
+    color: #333;
+    font-family: Playfair;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+#lista-instrucciones{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.instruccion{
+    display: flex;
+    margin-bottom: 20px;
+}
+.orange-bg{
+    background-color:rgba(242, 153, 74, 1);
+}
+.instruccion > span{
+    color: white;
+    font-family: Playfair;
+    font-size: 24px;
+    border-radius: 6px;
+    text-align: center;
+    line-height: 32px;
+    min-width: 36px;
+    min-height: 36px; max-height: 36px;
+    margin-right: 13px;
+}
+
+#lista-instrucciones .instruccion:nth-child(3) > span,
+#lista-instrucciones .instruccion:nth-child(4) > span,
+#lista-instrucciones .instruccion:nth-child(5) > span,
+#lista-instrucciones .instruccion:nth-child(7) > span{
+    line-height: 30px;
+    
+}
+
+.instruccion > p{
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 19.5px;
+    margin-top: 5px;
+    width: 73%;
+}
+
+/* FOOTER */
+
+#footer{
+    font-family: Playfair;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+}
